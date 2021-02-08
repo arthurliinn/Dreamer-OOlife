@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/all.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme_productPage.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <title>OOLife -  購物車</title>
+</head>
+<body>
+  <header>
+    <div class="top_nav">
+      <div class="top_btn_container pc_topnav">
+        <a class="top_btn" href="#">我要上架商品</a>
+        <a class="top_btn" href="#">註冊</a>
+        <a class="top_btn" href="#">登入</a>
+      </div>
+    </div>
+    <nav class="pc_nav">
+      <a href="index.html"><img id="logo" src="images/logo.png" alt="oolife_logo"></a>
+      <ul class="main_nav_ul">
+        <li class="navbar_btn"><a href="#">關於我們</a></li>
+        <li class="navbar_btn"><a href="#">品牌介紹</a></li>
+        <li class="navbar_btn" id="list01_btn"><a href="">芳香保養▼</a></li>
+        <li class="navbar_btn" id="list02_btn"><a href="">生活實用串▼</a></li>
+        <li class="navbar_btn" id="list03_btn"><a href="">限時促銷▼</a></li>
+        <li class="navbar_btn" id="list04_btn"><a href="">時尚精品▼</a></li>
+        <li class="navbar_btn" id="list05_btn"><a href="">專業知識▼</a></li>
+        <li class="navbar_btn" id="list06_btn"><a href="">最新消息▼</a></li>
+        <li class="navbar_btn"><a href="#">我要上架商品</a></li>
+      </ul>
+      <div id="list_container">
+        <ul class="lists" id="list01">
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/2">芳香精油-單方/複方</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/11">芳香精油-純露/噴霧</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/5">芳香保養-身體系列</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/6">芳香保養-臉部系列</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/13">芳香保養-基礎油系列</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/9">美容保養-禮盒與周邊</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/10">芳香精油-居家保健/兒童系列</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/8">優惠促銷 - 團購福利</a></li>
+        </ul>
+        <ul class="lists" id="list02">
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/1/6">芳香保養-臉部系列</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/1/7">健康/植鮮/食品</a></li>
+        </ul>
+        <ul class="lists" id="list03">
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/10">芳香精油-居家保健/兒童系列</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/8">優惠促銷 - 團購福利</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/15">即期或瑕疵</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/14">課程 / 發表會</a></li>
+        </ul>
+        <ul class="lists" id="list04">
+          <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/4/8">優惠促銷 - 團購福利</a></li
+          ><li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/4/16">用品/精品</a></li>
+        </ul>
+        <ul class="lists" id="list05">
+          <li class="lists_li"><a href="http://www.oolife.com.tw/knowledge/lists/1">芳香療癒</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/knowledge/lists/2">健康生活</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/knowledge/lists/3">休閒旅遊</a></li>
+        </ul>
+        <ul class="lists" id="list06">
+          <li class="lists_li"><a href="http://www.oolife.com.tw/newspage/lists/3">促銷訊息</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/newspage/lists/2">資訊新知</a></li>
+          <li class="lists_li"><a href="http://www.oolife.com.tw/newspage/lists/1">節目影片</a></li>
+        </ul>
+      </div>
+      <div id="cart">
+        <a href="cart_page.html">
+          <img src="images/cart.png">
+          購物車
+        </a>
+        <span id="quantity">0</span>
+      </div>
+    </nav>
+
+    <nav class="phone_nav">
+      <a href="index.html" class="phone_logo"><img src="images/logo.png" alt="oolife_logo"></a>
+      <div class="phone_navlist">
+        <div class="top_btn_container_phone">
+          <a class="top_btn" href="#">我要上架商品</a>
+          <a class="top_btn" href="#">註冊</a>
+          <a class="top_btn" href="#">登入</a>
+        </div>
+        <ul class="phone_main_nav_ul">
+          <li class="navbar_btn"><a href="#">關於我們</a></li>
+          <li class="navbar_btn"><a href="#">品牌介紹</a></li>
+          <li class="navbar_btn" id="list01_btn_phone"><p>芳香保養▼</p></li>
+          <ul class="lists" id="phone_list01">
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/2">芳香精油-單方/複方</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/11">芳香精油-純露/噴霧</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/5">芳香保養-身體系列</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/6">芳香保養-臉部系列</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/13">芳香保養-基礎油系列</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/9">美容保養-禮盒與周邊</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/10">芳香精油-居家保健/兒童系列</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/3/8">優惠促銷 - 團購福利</a></li>
+          </ul>
+          <li class="navbar_btn" id="list02_btn_phone"><p>生活實用串▼</p></li>
+          <ul class="lists" id="phone_list02">
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/1/6">芳香保養-臉部系列</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/1/7">健康/植鮮/食品</a></li>
+          </ul>
+          <li class="navbar_btn" id="list03_btn_phone"><p>限時促銷▼</p></li>
+          <ul class="lists" id="phone_list03">
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/10">芳香精油-居家保健/兒童系列</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/8">優惠促銷 - 團購福利</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/15">即期或瑕疵</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/2/14">課程 / 發表會</a></li>
+          </ul>
+          <li class="navbar_btn" id="list04_btn_phone"><p>時尚精品▼</p></li>
+          <ul class="lists" id="phone_list04">
+            <li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/4/8">優惠促銷 - 團購福利</a></li
+            ><li class="lists_li"><a href="http://www.oolife.com.tw/products/lists/4/16">用品/精品</a></li>
+          </ul>
+          <li class="navbar_btn" id="list05_btn_phone"><p>專業知識▼</p></li>
+          <ul class="lists" id="phone_list05">
+            <li class="lists_li"><a href="http://www.oolife.com.tw/knowledge/lists/1">芳香療癒</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/knowledge/lists/2">健康生活</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/knowledge/lists/3">休閒旅遊</a></li>
+          </ul>
+          <li class="navbar_btn" id="list06_btn_phone"><p>最新消息▼</p></li>
+          <ul class="lists" id="phone_list06">
+            <li class="lists_li"><a href="http://www.oolife.com.tw/newspage/lists/3">促銷訊息</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/newspage/lists/2">資訊新知</a></li>
+            <li class="lists_li"><a href="http://www.oolife.com.tw/newspage/lists/1">節目影片</a></li>
+          </ul>
+          <li class="navbar_btn"><a href="#">我要上架商品</a></li>
+        </ul>
+      </div>
+      <div id="phone_menu_btn">
+        <div class="btn_line"></div>
+        <div class="btn_line"></div>
+        <div class="btn_line"></div>
+      </div>
+      <div id="cart_phone">
+        <a href="cart_page.html">
+          <img src="images/cart.png">
+          購物車
+        </a>
+        <span id="quantity">0</span>
+      </div>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <div id="map_cnotainer">
+      <a href="index.html">首頁</a>/<a href="products.html">購物車</a>
+    </div>
+
+    <div id="step">
+      <span class="step_span now_step">Step.1 個人資料</span><i class="fas fa-caret-right"></i><span class="step_span">Step2. 進行付款</span><i class="fas fa-caret-right"></i><span class="step_span">Step3. 訂購成功</span>
+    </div>
+
+    <section class="my_commodities">
+      <div id="listTitle"><span class="listTitle commodity_title_name">產品名稱</span><span class="listTitle commodity_quantity">產品數量</span><span class="listTitle commodity_price_cart">產品價錢</span><span class="listTitle commodity_delete">產品刪除</span></div>
+      <div id="my_commodities_list">
+        <div class="my_commodity">
+          <img src="images/IMG_2245.JPG" alt=""/>
+          <span class="my_commodity_name">峨眉桶柑果汁 防疫熱門(含運)</span>
+          <div class="quantity_btn_cart_container">
+            <input type="number" max="100" min="0" value="1" onkeyup="price_change(this.id)">
+            <div class="quantity_btn_box_cart">
+              <div class="quantity_up_cart"></div>
+              <div class="quantity_down_cart"></div>
+            </div>
+          </div>
+          <span class="my_commodity_price">1000</span>
+          <span class="my_commodity_delet"><img src="images/delete_btn.svg"/></span>
+        </div>
+        <div class="my_commodity">
+          <img src="images/commodity.jpg" alt=""/>
+          <span class="my_commodity_name">PV74301 甜杏仁油*100ml</span>
+          <div class="quantity_btn_cart_container">
+            <input type="number" max="100" min="0" value="1" onkeyup="price_change(this.id)">
+            <div class="quantity_btn_box_cart">
+              <div class="quantity_up_cart"></div>
+              <div class="quantity_down_cart"></div>
+            </div>
+          </div>
+          <span class="my_commodity_price">1350</span>
+          <span class="my_commodity_delet"><img src="images/delete_btn.svg"/></span>
+        </div>
+        <div class="my_commodity">
+          <img src="images/IMG_2245.JPG" alt=""/>
+          <span class="my_commodity_name">「嬌房之喜」花嬌茶</span>
+          <div class="quantity_btn_cart_container">
+            <input type="number" max="100" min="0" value="1" onkeyup="price_change(this.id)">
+            <div class="quantity_btn_box_cart">
+              <div class="quantity_up_cart"></div>
+              <div class="quantity_down_cart"></div>
+            </div>
+          </div>
+          <span class="my_commodity_price">500</span>
+          <span class="my_commodity_delet"><img src="images/delete_btn.svg"/></span>
+        </div>
+      </div>
+      
+      <div id="totally_price">總金額<span id="totally_price_show"></span></div>
+    </section>
+
+
+    <section class="discount">
+      <div clsss="listTitle">輸入折扣序號 <span id="discount_downarrow"><i class="fas fa-sort-down"></i></span></div>
+      <div class="discount_ticket">滿3000折100 <span clss="discount_checkbox"><img src="images/check_btn.svg"/></div>
+      <div class="discount_ticket">90% off <span clss="discount_checkbox"><img src="images/check_btn.svg"/></div>
+    </section>
+
+    <section class="my_detials">
+      <h2>請確認您的資料</h2>
+      <div id="details_input">
+        <div class="input_container" id="neme_input">
+          <p>姓名<span class="imortant_star">*</span></p>
+          <input type="text" name="name">
+        </div>
+        <div class="input_container" id="phone_input">
+          <p>連絡電話<span class="imortant_star">*</span></p>
+          <input type="text" name="phone_num">
+        </div>
+        <div class="input_container" id="postal_code_input">
+          <p>郵遞區號<span class="imortant_star">*</span></p>
+          <input type="text" name="postal_code">
+        </div>
+        <div class="input_container" id="adress_input">
+          <p>聯絡地址(發票寄送地址)<span class="imortant_star">*</span></p>
+          <input type="text" name="address">
+        </div>
+        <div class="input_container" id="email_input">
+          <p>電子信箱<span class="imortant_star">*</span></p>
+          <input type="text" name="email">
+        </div>
+        <div class="input_container" id="uni_number_input">
+          <p>統一編號<span class="imortant_star">*</span></p>
+          <input type="text" name="uni_number">
+        </div>
+        <div class="input_container" id="PS_input">
+          <p>備註<span class="imortant_star">*</span></p>
+          <textarea  name="ps" style="resize:none"></textarea>
+        </div>
+      </div>
+      <input type="checkbox"><span>捐贈發票</span><input type="checkbox"><span>我已經閱讀個資條款並且同意資料收集顧客個人資料保護條款</span>
+      <h2>付款方式</h2>
+      <select id="pay_select">
+        <option value="credit_card">信用卡付款</option>
+      </select>
+      <input type="submit" value="確認送出">
+    </section>
+
+
+
+
+
+
+  </main>
+
+
+
+  <footer>
+    <div class="footer_content">
+      <h3>關於串生活</h3>
+      <p>我們致力打造一個天然植粹的生活</p>
+      <p>以植粹為基礎。</p>
+      <p>以分享為初衷。</p>
+      <p>以共享為核心。</p>
+      <p>以專業為筆、良心為墨。</p>
+      <p>質與量並行的串生活。</p>
+    </div>
+    <div class="footer_content">
+      <h3>聯絡方式</h3>
+      <p>服務時間:星期一~五 9:00~18:00</p>
+      <p>信箱:oolifeoogo@gmail.com</p>
+    </div>
+    <div class="footer_content">
+      <a class="link_btn" href="https://www.facebook.com/oolifeoogo/">
+        <img src="images/Facebook_icon.png"/>
+        OOlife串生活
+      </a>
+      <br>
+      <a class="link_btn" href="https://www.rakuten.com.tw/shop/oolife/?scid=rafop-s956_GSN_DSA_desktop&pr=66bd460b92eb2a76">
+        <img src="images/rakuten.png"/>
+        樂天串生活
+      </a>
+      
+    </div>
+  </footer>
+</body>
+<script src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/cart.js"></script>
+</html>
